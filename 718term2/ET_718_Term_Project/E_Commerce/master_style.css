@@ -1,0 +1,10 @@
+A:Link {color:000000;text-decoration:none;}
+
+A:Visited {color:000000;text-decoration:none;}
+
+A:Hover {color:000000;text-decoration:underline;}
+
+.button {
+	BORDER-RIGHT: 1px solid #000000; BORDER-TOP: 1px solid #000000; BORDER-LEFT: 1px solid #000000; BORDER-BOTTOM: 1px solid #000000;
+	background-color: #D9D9D9; FONT-SIZE: 10px;font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-style: regular;color: #3a3a3a;
+}

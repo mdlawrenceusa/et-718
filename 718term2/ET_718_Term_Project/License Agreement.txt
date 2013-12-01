@@ -1,0 +1,21 @@
+End User License Agreement for Midicart Shoppingcart
+
+This license agreement is a legal agreement between you and MidiCart Software. By using this product you agree to be bound by the terms of this agreement.
+This software is protected by national and international copyright laws. This software is licensed, not sold.
+
+Granted Rights:  
+This license grants you the right to install this software on 1 computer system. In addition, you may make 1 backup copy of the software. This product is licensed per store (also known as per domain or per site).
+
+Limitations: 
+You may not rent or lease this software, you may not transfer your rights under this license agreement.
+
+Ownership:
+MidiCart Software retains ownership of the software.
+
+Liability: 
+In no event shall MidiCart Software be liable for and damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of information or any other pecuniary loss) arising out of the use of inability to use this software, even if MidiCart Software has been advised of the possibility of such damages.
+
+General: 
+By installing this software you acknowledge that you have read this license agreement, understand it, and agree to be bound by its terms and conditions.
+
+MidiCart Software 2003

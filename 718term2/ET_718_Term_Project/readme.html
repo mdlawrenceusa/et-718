@@ -1,0 +1,333 @@
+<html>
+
+<head>
+
+<title>MidiCart PHP - Setup Instruction</title>
+
+<style>
+
+A:Link {color:00009b;text-decoration:none;}
+
+A:Visited {color:00009b;text-decoration:none;}
+
+A:Hover {color:0000ff;text-decoration:underline;}
+
+</style>
+
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#00009b" VLINK="#00009b" ALINK="#0000ff">
+
+<TABLE BORDER=0 CELLSPACING=4 CELLPADDING=1>
+<TR><TD>
+
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<B>Setup Instruction</B>
+</font>
+<BR>
+<font size="5" face="Verdana, Arial, Helvetica, sans-serif">
+<B>MidiCart PHP Shopping Cart</B>
+</font>
+<HR WIDTH=100% size=1 COLOR="#000000">
+        <BR>
+        <font size="2" face="Verdana, Arial, Helvetica, sans-serif"> MidiCart 
+        PHP is a complete "easy to use and setup" e-commerce solution that provides 
+        all you need to create, operate, and maintain an online store. Sell unlimited 
+        products, one or one million, it's up to you!<BR>
+        If you can fill out a form, you can create a powerful online shopping 
+        cart system on your website without the need to hire an expensive programmer 
+        or webmaster to help you maintain it. </FONT>
+      <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">No additional charges 
+        - No hidden monthly fees - You pay one price, and that's it.</font></p>
+<p> 
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> <b>Product 
+      homepage</b></font> </td>
+    <td>&nbsp;&nbsp;<font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+      <a href="http://www.midicart.com" TARGET="blank"><b>http://www.midicart.com</b></a></font> 
+    </td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> <b>Product 
+      orderpage - Payment provider RegSoft</b> </font></td>
+    <td>&nbsp;&nbsp;<font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+      <a href="http://www.midicart.com/purchase.html" TARGET="blank"><b>http://www.midicart.com/purchase.html</b></a></font> 
+    </td>
+  </tr>
+</table>
+<P>
+
+        <font size="2" face="Verdana, Arial, Helvetica, sans-serif"> <B>Supported 
+        operating systems:</B><BR>
+        Microsoft Windows 95/98/NT/2000/XP/2003, Linux, UNIX<BR>
+        <B>Supported HTTP server software:</B><BR>
+        Microsoft IIS or PWS, and Apache with PHP3 or 4<BR>
+        <B>Supported Database software:</B><BR>
+        MySQL<BR>
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Included 
+          </B></FONT><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><font size="4" face="Verdana, Arial, Helvetica, sans-serif"><b>directories</b></font></font><BR>
+          <B>shop</B> - Shop files for servers with PHP register_globals = On 
+          <b>(Try these files first)</b><BR>
+          <B>shop_reg_global_of</B> - Shop files for servers with PHP register_globals 
+          = Off<BR>
+          <B>linux-unix_files</B> - Examples files to some secure payment providers 
+          (Linux/UNIX users)<BR>
+          <B>windows_files</B> - Examples files to some secure payment providers 
+          (Windows users)<BR>
+          <B>images</B> - Images setup manual 
+        <P> Create a file test.php with this text only, and run it at your server 
+          to find out your PHP version. 
+        <P> &lt? PHPinfo() ?&gt 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Included 
+          files</B></FONT><BR>
+        
+      <P><b>quick_setup.html</b> - Quick Setup manual<br>
+          <B>readme.html</B> - Setup manual<BR>
+          <B>setup.php</B> - A setup file who create the tables for MidiCart PHP<BR>
+          <B>table_maker.sql</B> - SQL script to create the tables. Copy and paste 
+          in phpMyAdmin<BR>
+          <B>License Agreement.txt</B> - License Agreement 
+        <P> <B>Advanced database management tool</B><BR>
+          <B>phpMyAdmin</B> - <B><A HREF="http://www.phpmyadmin.net/" TARGET="blank">Download 
+          page</A></B><BR>
+          Import, export and backup 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Windows 
+          users</B></FONT><BR>
+          If you plan to use these scripts at a Windows server, you must replace 
+          2 files and add 2 new file. <BR>
+          Replace the order_final.php and order_transfer.php with the files order_final.asp, 
+          order_transfer.asp and response.asp from the windows_files folder.<BR>
+          Copy the file settings.asp the your shop folder.<BR>
+          Open the setting.asp and enter your e-mail account, SMTP server and 
+          set the txt_currency.<BR>
+          Change form action in order_money.php and order_card.php to order_final.asp 
+          and order_transfer.asp.<BR>
+          <B>Windows users can't store CC information in MySQL</B> 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>How 
+          to use a secure payment provider like Authorizenet, PayPal or Worldpay</B></FONT><BR>
+          The file order_transfer.php is a gateway to your secure payment provider. 
+          Open the folder files, to find some examples files.<BR>
+          If you plan to use an other external payment provider, you have to edit 
+          the fields or fieldname in the bottom of order_transfer.php to fit. 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>How 
+          to setup</B></FONT><BR>
+          MidiCart PHP use javascript and PHP, and are designed for use Linux/UNIX 
+          and Apache. All pages built "on the fly" from the MySQL database. The 
+          items is grouped in a main and a secondgroup. When the customer clicks 
+          on a maingroup all secondgroups are listed. When he push the secondgroup 
+          link, all products is listed in the main window. <BR>
+        <table cellspacing="0" cellpadding="3">
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">1</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              Contact your ISP for an account in a MySQL server. </font> </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">2</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              Modify the file config.php in the folder shop or shop_reg_global_of with text editor such as WordPad or NotePad.<BR>
+<font color="#c60000"><b><font color="#c60000">$host = &quot;192.168.0.50&quot;;</font></b></font>&nbsp;&nbsp;&nbsp;<i>//mysql database host</i><BR>
+<font color="#c60000"><b>$user = &quot;root&quot;;</b>&nbsp;</font>&nbsp;&nbsp;<i>//mysql database username</i><BR>
+<font color="#c60000"><b>$pass = &quot;Ghy6Rgbv&quot;;</b></font>&nbsp;&nbsp;&nbsp;//mysql database password<BR>
+<font color="#c60000"><b>$database = &quot;midicart_demo&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>//mysql database</i><BR>
+<font color="#c60000"><b>$receipt = &quot;demo@midicart.com&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>//e-mail account for receiving orders</i><BR>
+<font color="#c60000"><b>$txt_currency=&quot;USD&quot;;</b></font>&nbsp;&nbsp;&nbsp;//currency.<BR>
+<font color="#c60000"><b>$upload_path = &quot;/home/username/html/shop/images/&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>// upload path to the images directory</i><BR>
+<font color="#c60000"><b>$add_tax = &quot;0&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>//tax in %. Enter 16.00 for 16%. If not used = 0</i><BR>
+<font color="#c60000"><b>$add_freight = &quot;0&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>//firm freight charge in format 5.00. If not used = 0</i><BR>
+              Allmost all text strings in the shop can translated to other languages 
+              in the file config.php.<BR>
+              </font> </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">3</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              Modify the html code in the bottom of order_final.php.<BR>
+              This is the page who the customer get when he submit his order. 
+              </font> </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">4</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              Upload all files in the folder shop_php_old or shop_php_new to your 
+              web server. </font> </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">5</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              Set the following permissions: (Only Linux/UNIX)<BR>
+              The images directory needs to be chmoded to 0777. (write enabled for all users). </font> </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">6</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              Point your browser to http://www.domain.com/your_shop_files/setup.php 
+              to create the tables in MySQL.<BR>
+              Remove the file setup.php from your website when you have created 
+              the tables.<BR>
+              </font> </TD>
+          </TR>
+        </TABLE>
+        <BR>
+        Go to the administration interface http://www.domain.com/your_shop_files/admin/ 
+        and add some items in to the database. Try out your new shop http://www.domain.com/your_shop_files/ 
+        and send some test orders. 
+        <P> Modify the layout an graphics in shop, and upload these files to your 
+          website. If you edit the frames, you must edit the javascript in middle_left.php 
+          and basket.php. The frame with the shopping cart script (middle_left.php) 
+          must be named cart. <B>Don't try to change the layout if you not are 
+          familiar in javascript and HTML.</B> 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Administration 
+          Interface</B></FONT><BR>
+        <font size="2" face="Verdana, Arial, Helvetica, sans-serif"> In this area 
+        the shop administrator edit the database, and view the credit card information. 
+        The interface is similar with the shop, but instead for buying products 
+        you may add, delete or update products. The link Credit Card Payment points 
+        to the list of credit card information. Use a SSL secured connection when 
+        you read this file. 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Shipping 
+          and Tax</B></FONT><BR>
+          <font size="2" face="Verdana, Arial, Helvetica, sans-serif">MidiCart 
+          PHP have support for shipping cost in a fixed charge, and an item shipping 
+          price. The tax is in Percent, and those variables you set in the config.php. 
+          If don't use the tax function, you may set the value to 0. </font> 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Checkout 
+          function Invoice or money orders</B></FONT><BR>
+        <table cellspacing="0" cellpadding="3">
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">1</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              The customer enter his personal information and push Checkout.</font> 
+            </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">2</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+              The personal information and the order sends by email to the receipt 
+              account and a copy to the customers email account.</font> </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">3</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">The 
+              HTML code in the bottom of order_final.php shows up.</font> </TD>
+          </TR>
+        </TABLE>
+        <BR>
+        <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Checkout 
+        function Credit Card Payment </B></FONT><BR>
+        <table cellspacing="0" cellpadding="3">
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">1</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">The 
+              customer enter his personal information and push ?Continue?</font> 
+            </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">2</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">In 
+              next page order_transfer.php, the personal information and the order 
+              sends by email to the receipt account and a copy to the customers 
+              email account. This page is also a transfer to the file /secure/order_secure.php 
+              in a window there you must have a secure SSL connection. </font> 
+            </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">3</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">In 
+              order_secure.php the customer enter his credit card information, 
+              and push Submit. </font> </TD>
+          </TR>
+          <TR> 
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">4</font></TD>
+            <TD VALIGN=top><font size="2" face="Verdana, Arial, Helvetica, sans-serif">The 
+              final page is /secure/order_final.php. This page put the card information 
+              in the database under the table card_payment. The order and personal 
+              information is sent by e-mail, only the CC numbers is stored in 
+              the database. Use a secure SSL connection when you read this data. 
+              </font> </TD>
+          </TR>
+        </TABLE>
+        <BR>
+        <B><FONT COLOR=#dd0000>USE A SECURE PAYMENT PROVIDER LIKE AUTHORIZE.NET, 
+        PAYPAL OR WORLDPAY FOR BETTER SECURITY</FONT></B> 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>VERY 
+          IMPORTANT SECURE THE ADMIN DIRECTORY</B></FONT><BR>
+          <B>Linux/UNIX users</B><BR>
+          You'll first need to create an .htaccess file in the directory that 
+          you want to be protected, it should be chmod 644. This can be done with 
+          your favorite text editor. For further information, search on <B><A HREF="http://www.google.com/search?hl=en&lr=lang_en&ie=ISO-8859-1&q=.htaccess+how+to&btnG=Google+Search" TARGET="_new">.htaccess 
+          how to</A></B> at Google or an other search engine. 
+        <P> You find a nice passwordgenerator at <B><A HREF="http://www.inch.com/info/tech/HOWTOS/htaccess/htpasswd.html">http://www.inch.com/info/tech/HOWTOS/htaccess/htpasswd.html</A></B> 
+        <P> <B>Window users</B><BR>
+          Please use the standard security system in IIS. Ask your ISP. 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Browse 
+          and add item to cart</B></FONT><BR>
+          MidiCart PHP use javascript and PHP-script, and are designed for use 
+          in WinNT/2000 with IIS. All pages built "on the fly" from the Access 
+          database. The items is grouped in a main and a secondgroup. When the 
+          customer clicks on a maingroup all secondgroups are listed. <BR>
+          When the customer push the secondgroup link, all products is listed 
+          in the main window. Both code no and item name links to a page who shows 
+          all details and the image. When he push the buttom ?Add?, the item puts 
+          in to the shopping basket.<BR>
+          <B>Search Engine</B><BR>
+          With this facility your customers can find a specific product. They 
+          may select a field from the drop down searchstring, the results are 
+          presented in the main window. The Search Engine finds all items within 
+          the specific field of the searchstring. The "string" script is written 
+          as %string%.<BR>
+          <B>Links in result page</B><BR>
+          When the customer push the secondgroup link, all products is listed 
+          in the main window. Both code no and item?s name links to a page who 
+          shows all details and the image. When he push the buttom ?Add?, the 
+          item puts in to the shopping basket.<BR>
+          <IMG SRC="images/image1.gif" WIDTH="509" HEIGHT="149" ALT=""> 
+        <P> <B>Shopping Basket</B><BR>
+          In the shopping basket the customer can see all his items, and remove 
+          or change quantity of a selected item.<BR>
+          <IMG SRC="images/image2.gif" WIDTH="439" HEIGHT="129" ALT=""> 
+        <P> <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><B>Solving 
+          Common Problems</B></FONT><BR>
+          <B>Problem with shopping cart</B><BR>
+          Have you edit the framed layout?<BR>
+          Is the frame with middle_left.php named cart?<BR>
+          Have you enabled javascript in your browser settings?<BR>
+          Do you use code no or item name with special character like ,-/ or .?<BR>
+          <B>The database connection don't work</B><BR>
+          Check your settings for server IP, username and password in config.php?<BR>
+          Have your server support for MySQL in the http server?<BR>
+          Create a file test.php with this text only, and run it on your server: 
+          &lt? PHPinfo() ?&gt<BR>
+          Ask your ISP. 
+        <P> 
+        <HR WIDTH=100% size=1 COLOR="#000000">
+        <FONT COLOR=#dd0000> <B> Limitations<BR>
+        </b></FONT><B> The shopping cart has a limit of 30 items in each order 
+        email. You can increase the number of items in order_final.php and order_transfer.php.<BR>
+        The field Code No. and Item can only have character and numbers 0-9, a-z 
+        and A-Z.<BR>
+        Do not use special characters like , . - _ + ' * in these field.</B><BR>
+        Exception - Special characters / - _ , & ( ) : ; * # ! works fine in the 
+        item name, but some combinations maybe result in an error.<BR>
+        <B>Try to remove all special characters if you have problem to add items 
+        to the shopping cart.</B> </FONT> 
+        <HR WIDTH=100% size=1 COLOR="#000000">
+        <B>THIS PROGRAM IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. MIDICART 
+        SOFTWARE TAKES NO RESPONSIBILITY FOR ANY DAMAGES SUFFERED AS A RESULT 
+        OF USING, MODIFYING THIS SOFTWARE. IN NO EVENT WILL MIDICART SOFTWARE 
+        BE LIABLE FOR ANY LOST REVENUE, PROFIT OR DATA, OR FOR DIRECT, INDIRECT, 
+        SPECIAL, CONSEQUENTIAL, INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED 
+        AND REGARDLESS OF THE THEORY OF LIABILITY, ARISING OUT OF THE USE OF OR 
+        INABILITY TO USE SOFTWARE, EVEN IF MIDICART SOFTWARE HAS BEEN ADVISED 
+        OF THE POSSIBILITY OF SUCH DAMAGES.</B> </font> 
+        <HR WIDTH=100% size=1 COLOR="#000000">
+ </TD>
+    </TR></TABLE>
+<P> 
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<DIV align="center">2004 © Copyright MidiCart Software. All rights reserved</DIV>
+</font> 
+</body></html>
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>MidiCart PHP - Quick Setup</TITLE>
+
+<style>
+
+A:Link {color:c60000;text-decoration:none;}
+
+A:Visited {color:c60000;text-decoration:none;}
+
+A:Hover {color:FF0033;text-decoration:underline;}
+
+</style>
+
+</HEAD>
+
+<BODY BACKGROUND="" BGCOLOR="#ffffff" TEXT="#000000" LINK="#c60000" VLINK="#c60000" ALINK="#FF0033">
+
+<font face="Verdana, Arial, Helvetica, sans-serif" size="5"><B>Quick Setup</B></FONT>
+<P>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2"> <B>shop</B> - Shop 
+files for servers with PHP register_globals = On <FONT COLOR=#c60000><B>(Try these 
+files first)</B></FONT><BR>
+<B>shop_reg_global_of</B> - Shop files for servers with PHP register_globals = 
+Off 
+<P>Modify the file config.php in the folder shop or shop_reg_global_of with text editor such as WordPad or NotePad.
+<P>
+<font color="#c60000"><b><font color="#c60000">$host = &quot;192.168.0.50&quot;;</font></b></font>&nbsp;&nbsp;&nbsp;<i>//mysql database host</i><BR>
+<font color="#c60000"><b>$user = &quot;root&quot;;</b>&nbsp;</font>&nbsp;&nbsp;<i>//mysql&nbsp;database username</i><BR>
+<font color="#c60000"><b>$pass = &quot;Ghy6Rgbv&quot;;</b></font>&nbsp;&nbsp;&nbsp;// mysqldatabase password<BR>
+<font color="#c60000"><b>$database = &quot;midicart_demo&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>//mysql database</i><BR>
+<font color="#c60000"><b>$receipt = &quot;demo@midicart.com&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>//e-mail account for receiving orders</i><BR>
+<font color="#c60000"><b>$txt_currency=&quot;USD&quot;;</b></font>&nbsp;&nbsp;&nbsp;//currency.<BR>
+<font color="#c60000"><b>$upload_path = &quot;/home/username/html/shop/images/&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>// upload path to the images directory</i><BR>
+<font color="#c60000"><b>$add_tax = &quot;0&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>//tax in %. Enter 16.00 for 16%. If not used = 0</i><BR>
+<font color="#c60000"><b>$add_freight = &quot;0&quot;;</b></font>&nbsp;&nbsp;&nbsp;<i>//firm freight charge in format 5.00. If not used = 0</i><BR>
+Upload the folder shop or shop_reg_global_of to your website<BR>
+The images directory needs to be chmoded to 0777. (write enabled for all users)<BR>
+Point your browser to the new folder in your website. (http://www.domain.com/shop/)<BR>
+Click on "Click here to install MidiCart PHP tables in MySQL" in the main frame to install MidiCart 
+PHP tables in MySQL 
+</FONT> 
+<p>
+</BODY>
+
+</HTML>

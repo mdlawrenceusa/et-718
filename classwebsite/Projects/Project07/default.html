@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Project 7</title>
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+.style2 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Project 7</h1>
+<table style="width: 100%">
+	<tr>
+		<td class="style1" style="width: 334px; height: 274px;">
+		<img alt="Quala Bear" height="251" longdesc="Quala Bear" src="Images/Koala.jpg" width="335" /><br />
+		JPG</td>
+		<td class="style1" style="width: 319px; height: 274px;">
+		<img alt="Desert" height="251" longdesc="Desert" src="Images/Desert.png" width="335" /><br />
+		PNG</td>
+	</tr>
+	<tr>
+		<td class="style1" style="width: 334px; height: 274px;">
+		<img height="251" src="Images/Lighthouse.gif" width="335" /><br />
+		GIF</td>
+		<td class="style1" style="width: 319px; height: 274px;"><map id="FPMap0" name="FPMap0">
+		<area title="Overview" coords="213, 219, 333, 249" href="http://www.hydrangeashydrangeas.com/" shape="rect" target="_blank" />
+		<area coords="88, 77, 177, 40, 235, 70, 253, 101, 252, 160, 231, 184, 199, 214, 180, 220, 169, 209, 139, 197, 141, 187, 109, 189, 104, 186, 102, 171, 92, 168, 82, 183, 75, 170, 68, 148, 61, 133, 79, 129, 80, 124, 89, 114, 76, 97, 80, 82" href="http://www.hydrangeashydrangeas.com/colorchange.html" shape="polygon" target="_blank" title="CHANGE TO BLUE" />
+		<area coords="285, 49, 49" href="http://www.hydrangeashydrangeas.com/fertilize.html" shape="circle" title="Nutrition" target="_blank" />
+		</map>
+		<img alt="" height="251" src="Images/Hydrangeas.gif" usemap="#FPMap0" width="335" class="style2" /><br />
+		GIF with Text</td>
+	</tr>
+	<tr>
+		<td class="style1" style="height: 274px;" colspan="2">
+		&nbsp;
+		<canvas id="myCanvas" width="555" height="333" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script type="text/javascript">
+
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.font="30px Arial";
+ctx.strokeText("QCC ET-710 - A World of Possibilities!",10,50);
+
+
+var c1=document.getElementById("myCanvas");
+var ctx1=c1.getContext("2d");
+
+var img=new Image();
+img.onload = function(){
+ctx1.drawImage(img,10,75);
+};
+img.src="http://mdlqcc.s3.amazonaws.com/Media/Images/homepage4.jpg";
+
+var img1=new Image();
+img1.onload = function(){
+ctx1.drawImage(img1,185,75);
+};
+img1.src="http://mdlqcc.s3.amazonaws.com/Media/Images/homepage2.jpg";
+
+var img2=new Image();
+img2.onload = function(){
+ctx1.drawImage(img2,357,75);
+};
+img2.src="http://mdlqcc.s3.amazonaws.com/Media/Images/homepage1.jpg";
+
+
+</script>
+
+		
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<?php
+
+require("../config.php");
+
+echo "<html><title>MidiCart PHP Database Management</title><head>
+<FRAMESET COLS=\"50%\" BORDER=0 FRAMEBORDER=0>
+<NOFRAMES><BODY BGCOLOR=\"#FFFFFF\">
+</BODY>
+</NOFRAMES>
+   <FRAMESET ROWS=\"70,50%\" BORDER=0 FRAMEBORDER=0>
+      <FRAME SRC=\"top.php\" NAME=top NORESIZE SCROLLING=no MARGINWIDTH=0 MARGINHEIGHT=0 FRAMEBORDER=0>
+      <FRAMESET ROWS=\"36,50%\" BORDER=0 FRAMEBORDER=0>
+         <FRAMESET COLS=\"170,100%\" BORDER=0 FRAMEBORDER=0>
+            <FRAME SRC=\"middle_left.php\" NAME=\"menu\" NORESIZE SCROLLING=no MARGINWIDTH=0 MARGINHEIGHT=12 BORDER=0 FRAMEBORDER=0>
+            <FRAME SRC=\"middle_right.php\" NAME=\"middle_right\" SCROLLING=no MARGINWIDTH=10 MARGINHEIGHT=2 FRAMEBORDER=0>
+         </FRAMESET>
+         <FRAMESET COLS=\"170,50%\" BORDER=0 FRAMEBORDER=0>
+            <FRAME SRC=\"categories.php\" NAME=categories NORESIZE MARGINWIDTH=6 MARGINHEIGHT=10 FRAMEBORDER=0>
+            <FRAME SRC=\"main.php\" NAME=main MARGINWIDTH=10 MARGINHEIGHT=4 FRAMEBORDER=0>
+         </FRAMESET>
+      </FRAMESET>
+   </FRAMESET>
+</FRAMESET>
+</head>
+</html>";
+
+?>

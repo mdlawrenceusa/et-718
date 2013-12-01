@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "../master.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<!-- Begin declarations for Tab example from http://docs.jquery.com/UI/Tabs -->
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#tabs").tabs();
+  });
+  
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+</script>
+<!-- End declarations for Tab example from http://docs.jquery.com/UI/Tabs -->
+
+
+
+
+
+
+
+
+<title>Good News</title>
+<style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.auto-style4 {
+	font-size: x-small;
+}
+.auto-style5 {
+	font-size: x-large;
+}
+.auto-style6 {
+	text-align: left;
+}
+.auto-style7 {
+	font-size: large;
+}
+.auto-style8 {
+	font-size: x-small;
+	color: #393939;
+}
+.auto-style9 {
+	text-align: center;
+	font-size: small;
+}
+.auto-style10 {
+	font-size: x-small;
+}
+.auto-style11 {
+	font-size: large;
+}
+.auto-style12 {
+	font-size: xx-large;
+}
+</style>
+<!-- #EndEditable -->
+<link href="../styles/style2.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+.auto-style1 {
+	color: #FFFFFF;
+}
+.auto-style2 {
+	text-align: center;
+}
+.auto-style3 {
+	background-color: #000000;
+}
+.auto-style4 {
+	color: #393939;
+	text-decoration: underline;
+}
+.auto-style6 {
+	font-size: small;
+}
+.auto-style7 {
+	margin-left: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Begin Container -->
+<div id="container">
+	<!-- Begin Masthead -->
+	<div id="masthead">
+		&nbsp;<p>
+		<table class="auto-style3" style="width: 100%">
+			<tr>
+				<td class="auto-style2">
+				<img alt="World of Illusion" height="75" src="../WorldofIllusionLogo.gif" width="255" class="auto-style7" /></td>
+				<td class="auto-style2">
+				
+				
+				
+				
+				
+				&nbsp;&nbsp;<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="728" height="90" style="float: right"><param name="movie" value="../flashvortex.swf" /><param name="quality" value="best" /><param name="menu" value="true" /><param name="allowScriptAccess" value="sameDomain" /><embed src="../flashvortex.swf" quality="best" menu="true" width="728" height="90" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="sameDomain">
+</embed>
+</object></td>
+				<td class="auto-style1" style="width: 240px">(347) 200-5533&nbsp;&nbsp; <br />
+				</td>
+			</tr>
+		</table>
+		</p>
+	</div>
+	<!-- End Masthead -->
+	<!-- Begin Page Content -->
+	<div id="page_content">
+		<!-- Begin Sidebar -->
+		<div id="sidebar" style="left: 0px; top: 0px; width: 140px">
+			<ul>
+				<li><a href="../default.html">Home</a></li>
+				<li><a href="../about/default.html">About</a></li>
+				<li><a href="default.html">Good News</a></li>
+				<li><a href="../Performances/default.html">Performances</a></li>
+				<li><a href="../BibleStudy/default.html"><em>
+				<span class="auto-style6">Magic </span></em>
+				<span class="auto-style6"><em>&amp; The</em></span><em><span class="auto-style6"> 
+				Bible</span></em></a></li>
+				<li><a href="../calendar/default.html">Calendar</a></li>
+				<li><a href="../contact/default.html">Contact</a></li>
+			</ul>
+		</div>
+		<!-- End Sidebar -->
+		<!-- Begin Content -->
+		<div id="content">
+			<!-- #BeginEditable "content" -->
+<!--<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml"> -->
+
+
+
+			<h2>Good News - The Gospel...</h2>
+			<table style="width: 100%">
+				<tr>
+					<td><object style="width: 237px; height: 157px"><param name="movie" value="http://www.youtube.com/v/n2L3cfB2q9s&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/n2L3cfB2q9s&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="237" height="157"></embed></object>&nbsp;</td>
+					<td><object width="237" height="157"><param name="movie" value="http://www.youtube.com/v/1UMZc6ipvCg&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/1UMZc6ipvCg&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="237" height="157"></embed></object>&nbsp;</td>
+					<td><object width="237" height="157"><param name="movie" value="http://www.youtube.com/v/q9N1ywbYhY0&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/q9N1ywbYhY0&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="237" height="157"></embed></object>&nbsp;</td>
+					<td><object width="237" height="157"><param name="movie" value="http://www.youtube.com/v/Dxu3YZUBvFk&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/Dxu3YZUBvFk&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="237" height="157"></embed></object>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+			<p>The word Gospel actually translates to Good News.&nbsp; Below are 
+			the <strong><em>4 Spiritual Laws of The Gospel</em></strong>.</p>
+			<h3>Four Spiritual Laws</h3>
+			
+			
+			
+<!--			
+			<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#tabs").tabs();
+  });
+  </script>
+</head>
+<body style="font-size:62.5%;style=" background-image:url('images/background.gif') ;background-color:silver  "">
+-->
+  
+<div style=" background-image:url('images/background.gif')" id="tabs">
+    <ul>
+        <li><a href="#fragment-1"><span>Spiritual Law One</span></a></li>
+        <li><a href="#fragment-2"><span>Spiritual Law Two</span></a></li>
+        <li><a href="#fragment-3"><span>Spiritual Law Three</span></a></li>
+        <li><a href="#fragment-4"><span>Spiritual Law Four</span></a></li>
+
+    </ul>
+    <div id="fragment-1">
+       			<p><span class="auto-style5"><strong><em>God loves you and 
+				created you to know Him personally.</em></strong></span><br />
+				<span class="auto-style8">(references contained on this Home 
+				Page are linked to the actual verses from the Bible, and should 
+				be read in context wherever possible.)</span><span class="auto-style4"><br />
+				</span><br />
+				<strong><em>God's Love</em></strong><br />
+				<span class="ui-state-error-text"><em>"God so loved the world, that He gave His only begotten Son, 
+				that whoever believes in Him should not perish, but have eternal 
+				life" </em></span>(John 3:16).<br />
+				<br />
+				<strong><em>God's Plan</em></strong><br />
+				<em>"Now this is eternal life: that they may know you, the only true 
+				God, and Jesus Christ, whom you have sent"</em> (John 17:3, NIV). 
+				What prevents us from knowing God personally?<br />
+				</p>
+    </div>
+    <div id="fragment-2">
+       			<p><strong><span class="auto-style5"><em>
+				Man is sinful and separated from God, so we cannot know Him 
+				personally or experience His love.</em><br />
+				</span><span class="auto-style7"><br />
+				</span><em>Man is Sinful</em></strong><br />
+				<em>"All have sinned and fall short of the glory of God" </em>(Romans 
+				3:23). Man was created to have fellowship with God; but, because 
+				of his own stubborn self-will, he chose to go his own 
+				independent way and fellowship with God was broken. This 
+				self-will, characterized by an attitude of active rebellion or 
+				passive indifference, is an evidence of what the Bible calls 
+				sin.<br />
+				<br />
+				<strong><em>Man is Separated</em></strong><br />
+				<em>"The wages of sin is death" [spiritual separation from God] 
+				</em>(Romans 6:23). <em>"...(Those) who do not know God and do not obey 
+				the gospel of our Lord Jesus...will be punished with everlasting 
+				destruction and shut out from the presence of the Lord..."</em> (2 
+				Thessalonians 1:8,9)</p>
+				<p class="auto-style9"><br />
+				<br />
+				<img alt="Law2" height="128" src="../images/law2.gif" width="228" /></p>
+				<p ><br />
+				<br />
+				This diagram illustrates that God is holy and man is sinful. A 
+				great gulf separates the two. The arrows illustrate that man is 
+				continually trying to reach God and establish the personal 
+				relationship with Him through his own efforts, such as a good 
+				life, philosophy, or religion - but he inevitably fails. The 
+				third principle explains the only way to bridge this gulf...<br />
+				</p>    
+	</div>
+    <div id="fragment-3">
+        		<p><span class="auto-style5"><strong><em>Jesus Christ is God's 
+				only provision for man's sin. Through Him alone we can know God 
+				personally and experience God's love.<br />
+				</em></strong></span><br />
+				<strong><em>He Died in Our Place</em></strong><br />
+				<em>"God demonstrates His own love toward us, in that while we were 
+				yet sinners, Christ died for us" (</em><strong>Romans 5:8</strong>).<br />
+				<br />
+				<strong><em>He Rose From the Dead</em></strong><br />
+				<em>"Christ died for our sins...He was buried...He was raised on the 
+				third day according to the Scriptures...He appeared to Peter, 
+				then to the twelve. After that He appeared to more than five 
+				hundred..." </em>(<strong>1 Corinthians 15:3-6</strong>).<br />
+				<br />
+				<strong><em>He is the Only Way to God</em></strong><br />
+				<em>"Jesus said to him, 'I am the way, and the truth, and the life; 
+				no one comes to the Father, but through Me'" </em>(<strong>John 14:6)</strong>.<br />
+				</p>
+				<p class="auto-style2">
+				<br />
+				<img alt="Law3" height="128" src="../images/law3.gif" width="228" /></p>
+				<p>This diagram illustrates that God has bridged the gulf that 
+				separates us from Him by sending His Son, Jesus Christ, to die 
+				on the cross in our place to pay the penalty for our sins.<br />
+				It is not enough just to know these truths...<br />
+				</p> 
+   </div>
+    <div id="fragment-4">
+        		<p><strong><em><span class="auto-style5">We must individually 
+				receive Jesus Christ as Savior and Lord; then we can know God 
+				personally and experience His love.<br />
+				</span></em></strong><br />
+				<strong><em>We Must Receive Christ</em></strong><br />
+				"As many as received Him, to them He gave the right to become 
+				children of God, even to those who believe in His name" (<strong>John 
+				1:12</strong>)<br />
+				<br />
+				<strong><em>We Receive Christ Through Faith</em></strong><br />
+				<em>"By grace you have been saved through faith; and that not of 
+				yourselves, it is the gift of God; not as a result of works that 
+				no one should boast"</em> (<strong>Ephesians 2:8,9</strong>).
+				<em>When We Receive Christ, 
+				We Experience a New Birth </em>(<strong>John 3:1-8.)</strong><br />
+				<br />
+				<strong><em>We Receive Christ by Personal Invitation</em></strong><br />
+				<span class="ui-state-error-text"><em><strong>[Christ speaking] "Behold, I stand at the door and knock; if any 
+				one hears My voice and opens the door, I will come in to him"</strong></em> 
+				(Revelation 3:20)</span>.<br />
+				<br />
+				Receiving Christ involves turning to God from self (repentance) 
+				and trusting Christ to come into our lives to forgive us of our 
+				sins and to make us what He wants us to be. Just to agree 
+				intellectually that Jesus Christ is the Son of God and that He 
+				died on the cross for our sins is not enough. Nor is it enough 
+				to have an emotional experience. We receive Jesus Christ by 
+				faith, as an act of our will.<br />
+				These two circles represent two kinds of lives:<br />
+				</p>
+				<p class="auto-style2">
+				<br />
+				<img alt="Circle1" height="170" src="../images/law4.1.png" width="334" /><br />
+				<br />
+				<img alt="Circle2" height="150" src="../images/law4.2.png" width="334" /></p>
+				<p><span class="auto-style11">Which circle best represents your life?<br />
+				Which circle would you like to have represent your life?</span><br />
+				<br />
+				<span class="auto-style11">The following explains how you can receive Christ:</span><br />
+				<br />
+				<em><strong>You Can Receive Christ Right Now by Faith Through Prayer</strong><br />
+				</em><span class="auto-style10"><em>(Prayer is talking with God)</em></span><em><br />
+				<strong>God knows your heart and is not so concerned with your words as 
+				He is with the attitude of your heart. The following is a 
+				suggested prayer:</strong></em><br />
+				<br />
+				<strong><em><span class="auto-style12">"</span></em><span class="auto-style12"><em>Lord Jesus, I want to know You personally. Thank 
+				You for dying on the cross for my sins. I open the door of my 
+				life and receive You as my Savior and Lord. Thank You for 
+				forgiving me of my sins and giving me eternal life. Take control 
+				of the throne of my life. Make me the kind of person You want me 
+				to be."</em></span></strong></p>
+				<p>If you have prayed this prayer please click the YES button 
+				below.</p>
+				<p class="auto-style2"><a href="../decision/default.html">
+				<img id="img1" alt="YES" height="80" onmousedown="FP_swapImg(0,0,/*id*/'img1',/*url*/'../images/iButton/decisionButton_3.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'../images/iButton/decisionButton_1.gif')" onmouseover="FP_swapImg(0,0,/*id*/'img1',/*url*/'../images/iButton/decisionButton_2.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'../images/iButton/decisionButton_2.gif')" src="../images/iButton/decisionButton_1.gif" style="border: 0" width="357" /><!-- MSComment="ibutton" fp-style="fp-btn: Braided Row 2; fp-font: Adobe Fan Heiti Std B; fp-font-size: 57; fp-preload: 0; fp-transparent: 1; fp-proportional: 0" fp-title="YES" --></a><br />
+				</p>
+	</div>
+</div>
+</body>
+</html>
+
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- #EndEditable --></div>
+		<!-- End Content --></div>
+	<!-- End Page Content -->
+	<!-- Begin Footer -->
+	<div id="footer">
+		<p class="auto-style2"><a href="../default.html">Home</a> | 
+		<a href="../about/default.html">About</a> 
+		| <a href="../calendar/default.html">Calendar</a> |
+		<a href="../contact/default.html">Contact</a> |
+		<a href="../team/default.html"><span class="auto-style4">Team</span></a> |
+		<!--<a href="employment/default.html">Employment</a> |-->
+		<a href="../faq/default.html">FAQ</a> |
+		<a href="../information_links/default.html">Information Links</a><br />
+		<a href="default.html">Good News</a> |
+		<a href="../photo_gallery/default.html">Photo Gallery</a> |
+		<a href="../press/default.html">Press</a> | 
+		<a href="../Performances/default.html">
+		<span class="auto-style4">Performances</span></a> | 
+		<a href="../ProcessOverview/default.html"><span class="auto-style4">Process 
+		Overview</span></a> |
+		<a href="../BibleStudy/default.html"><span class="auto-style4">Magic &amp; The 
+		Bible</span></a> |
+		<a href="../site_map/default.html">Site Map</a><br />
+		Copyright &copy; 2013 Mike Lawrence Productions. All Rights Reserved.</p>
+	</div>
+	<!-- End Footer --></div>
+<!-- End Container -->
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
