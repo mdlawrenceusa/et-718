@@ -12,15 +12,7 @@
 <p>This project counts from 0-50 with an interval of 5 using the For statement.</p>
 
 <hr/>
-<h5>For Loop:</h5>
-<p>&lt;?php<br />
-for ($i=0; $i &lt;= 50; $i=$i+5)<br />
-{<br />
-print $i . &quot;&lt;/br&gt;&quot;;<br />
-}<br />
-?&gt;</p>
-
-<h5>Output:</h5>
+<h5>For Loop Output:</h5>
 
 <?php
 for ($i=0; $i <= 50; $i=$i+5)

@@ -1,16 +1,16 @@
 vti_encoding:SR|utf8-nl
-vti_timelastmodified:TW|11 Nov 2013 14:00:38 -0000
+vti_timelastmodified:TR|04 Dec 2013 02:12:59 -0000
 vti_author:SR|MICHAELLAWR9EFD\\michaellawrence
 vti_modifiedby:SR|MICHAELLAWR9EFD\\michaellawrence
-vti_nexttolasttimemodified:TW|11 Nov 2013 14:00:38 -0000
+vti_nexttolasttimemodified:TW|04 Dec 2013 02:11:22 -0000
 vti_timecreated:TR|18 Nov 2013 16:27:00 -0000
 vti_title:SR|MidiCart Shoppingcart
 vti_extenderversion:SR|12.0.0.0
-vti_backlinkinfo:VX|ET_718_Term_Project/E_Commerce/shop.php
-vti_syncwith_198.83.120.96\:80/fa13/et_718_d1/mlawrence78:TW|18 Nov 2013 16:27:01 -0000
-vti_syncofs_198.83.120.96\:80/fa13/et_718_d1/mlawrence78:TW|11 Nov 2013 14:00:38 -0000
-vti_cacheddtm:TX|18 Nov 2013 16:27:01 -0000
-vti_filesize:IR|1987
+vti_backlinkinfo:VX|ET_718_Term_Project/E_Commerce/shop2.php ET_718_Term_Project/E_Commerce/shop.php
+vti_syncwith_198.83.120.96\:80/fa13/et_718_d1/mlawrence78:TX|04 Dec 2013 02:12:59 -0000
+vti_syncofs_198.83.120.96\:80/fa13/et_718_d1/mlawrence78:TW|04 Dec 2013 06:34:06 -0000
+vti_cacheddtm:TX|04 Dec 2013 02:12:59 -0000
+vti_filesize:IR|1994
 vti_cachedtitle:SR|MidiCart Shoppingcart
 vti_cachedbodystyle:SR|<BODY TEXT="#000000" BACKGROUND="images/bg_middle.gif" LINK="#000000" VLINK="#000000" ALINK="#F70404">
 vti_cachedlinkinfo:VX|Q|master_style.css S|images/bg_middle.gif A|search_list.php S|images/space.gif S|images/space.gif S|images/space.gif H|basket.php H|order.php

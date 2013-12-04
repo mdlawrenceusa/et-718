@@ -14,10 +14,25 @@ $chose=$_REQUEST["chose"];
 <title>Search list</title>
 
 <link rel="stylesheet" HREF="master_style.css">
+<link rel="stylesheet" href="css/foundation.css" />
+<script src="js/vendor/custom.modernizr.js" ></script>
+
+<script>
+function goBack()
+  {
+  window.history.back()
+  }
+</script>
+
 
 </HEAD>
 
 <BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#000000" VLINK="#000000" ALINK="#F70404">
+<!--Bread Crumbs-->
+<ul class="breadcrumbs">
+  <li><A HREF="main.php" TARGET="main">Home</A></li>
+  <li class="current"><a href="#">Search Results</a></li>
+</ul>
 
 <FORM NAME="itemsform">
 
@@ -78,6 +93,11 @@ while($row = mysql_fetch_row($result)) {
 </CENTER>
 
  </FORM>
-</body>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
 
+</body>
 </html>

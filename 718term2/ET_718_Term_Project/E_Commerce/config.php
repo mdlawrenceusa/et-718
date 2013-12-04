@@ -156,5 +156,6 @@ $txt_missing_image   = "Please enter a image for this item!";
 
 $coloralternator = "";
 
+
 ?>
 

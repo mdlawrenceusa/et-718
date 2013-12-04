@@ -1,16 +1,16 @@
 vti_encoding:SR|utf8-nl
-vti_timelastmodified:TR|01 Dec 2013 00:15:37 -0000
+vti_timelastmodified:TR|03 Dec 2013 01:22:07 -0000
 vti_author:SR|MICHAELLAWR9EFD\\michaellawrence
 vti_modifiedby:SR|MICHAELLAWR9EFD\\michaellawrence
-vti_nexttolasttimemodified:TW|01 Dec 2013 00:12:25 -0000
+vti_nexttolasttimemodified:TW|01 Dec 2013 00:15:37 -0000
 vti_timecreated:TR|18 Nov 2013 16:27:52 -0000
 vti_title:SR|Project 7
 vti_extenderversion:SR|12.0.0.0
 vti_backlinkinfo:VX|Projects/default.html
-vti_syncwith_198.83.120.96\:80/fa13/et_718_d1/mlawrence78:TX|01 Dec 2013 00:15:38 -0000
-vti_syncofs_198.83.120.96\:80/fa13/et_718_d1/mlawrence78:TW|01 Dec 2013 00:15:12 -0000
-vti_cacheddtm:TX|01 Dec 2013 00:15:38 -0000
-vti_filesize:IR|730
+vti_syncwith_198.83.120.96\:80/fa13/et_718_d1/mlawrence78:TX|03 Dec 2013 01:22:07 -0000
+vti_syncofs_198.83.120.96\:80/fa13/et_718_d1/mlawrence78:TW|03 Dec 2013 01:23:31 -0000
+vti_cacheddtm:TX|03 Dec 2013 01:22:07 -0000
+vti_filesize:IR|586
 vti_cachedtitle:SR|Project 7
 vti_cachedbodystyle:SR|<body>
 vti_cachedneedsrewrite:BR|false

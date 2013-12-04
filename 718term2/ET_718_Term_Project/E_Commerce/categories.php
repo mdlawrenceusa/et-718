@@ -10,6 +10,8 @@ require("config.php");
 <title>MidiCart Shoppingcart Categories</title>
 
 <link rel="stylesheet" HREF="master_style.css">
+ <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/custom.modernizr.js" ></script>
 
 <script LANGUAGE="javascript">
 <!--
@@ -135,7 +137,7 @@ $result2 = mysql_query("select DISTINCT maingroup, secondgroup from mlawrence_pr
 
 while($row = mysql_fetch_row($result2)) {
 
-	echo "&nbsp;&nbsp;&nbsp;<IMG SRC='images/blank.gif' border='0'>&nbsp;<a href=\"item_list.php?maingroup=$row[0]&secondgroup=$row[1]\" target=\"main\">$row[1]</a><br>
+	echo "&nbsp;&nbsp;&nbsp;<IMG SRC='images/blank.gif' border='0'>&nbsp;<a href=\"item_list2.php?maingroup=$row[0]&secondgroup=$row[1]\" target=\"main\">$row[1]</a><br>
 ";
 
 $i=$i+1;
@@ -160,6 +162,56 @@ echo "</span>";
 </B>
 
 </FONT>
+
+<div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title">Magical Purveyors Extraordinaire</h1>
+        
+
+      </section>
+
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Foundation</label></li>
+        <li><a href="#">The Psychohistorians</a></li>
+        ...
+      </ul>
+    </aside>
+
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Users</label></li>
+        <li><a href="#">Hari Seldon</a></li>
+        ...
+      </ul>
+    </aside>
+
+    <section class="main-section">
+      <!-- content goes here -->
+    </section>
+
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
 </body>
 </html>
 

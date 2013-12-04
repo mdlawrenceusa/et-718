@@ -10,6 +10,8 @@ require("config.php");
 <title>MidiCart Shoppingcart</title>
 
 <link rel="stylesheet" HREF="master_style.css">
+   
+
 
 </head>
 
